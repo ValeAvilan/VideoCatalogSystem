@@ -1,0 +1,9 @@
+build/
+.DS_Store
+
+# Documento de evidencia: permanece en tu computadora.
+Proyecto_POO (1).pdf
+GUIA_PERSONAL.md
+
+# Configuracion local del editor y videos que el proyecto ya no utiliza.
+.vscode/

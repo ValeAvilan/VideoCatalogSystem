@@ -1,0 +1,18 @@
+# tipo;id;nombre;genero;minutos;serie_id;temporada;numero;anio;clasificacion;portada;notas
+P;101;Iron Man;Accion;126;0;0;0;2008;B;imagenes/iron_man.jpeg;4,2,5,3,4
+P;102;Me Before You;Romance;110;0;0;0;2016;B;imagenes/me_before_you.jpg;5,5,4,3,5
+P;103;Mi pobre angelito;Comedia;103;0;0;0;1990;A;imagenes/mi_pobre_angelito.jpg;4,3,2,4,1
+P;104;The Avengers;Accion;143;0;0;0;2012;B;imagenes/the_avengers.jpg;3,4,5,2,4
+P;105;Spiderman;Accion;133;0;0;0;2017;B;imagenes/spiderman.jpeg;3,1,2,4,3
+S;201;Friends;Comedia;0;0;0;0;0;;imagenes/friends.jpg;3,4
+E;301;The Pilot;Comedia;22;201;1;1;0;;;4,5,3
+E;302;The One with the Sonogram at the End;Comedia;22;201;1;2;0;;;3,2,4
+E;305;The One with the Thumb;Comedia;22;201;1;3;0;;;1,2,3
+S;202;Gossip Girl;Drama;0;0;0;0;0;;imagenes/gossip_girl.jpg;4,2
+E;303;Pilot;Drama;42;202;1;1;0;;;4,3,5
+E;304;The Wild Brunch;Drama;39;202;1;2;0;;;2,1,3
+E;306;Poison Ivy;Drama;42;202;1;3;0;;;3,4,2
+S;203;Stranger Things;Misterio;0;0;0;0;0;;imagenes/stranger_things.jpeg;5,4
+E;307;The Vanishing of Will Byers;Misterio;47;203;1;1;0;;;5,4,5
+E;308;The Weirdo on Maple Street;Misterio;55;203;1;2;0;;;4,3,5
+E;309;Holly, Jolly;Misterio;51;203;1;3;0;;;2,4,3
