@@ -26,11 +26,8 @@ int leerEntero(const string& mensaje, int minimo, int maximo) {
     }
 }
 
-// Las ventanas pertenecen a la interfaz, no a las clases de POO.
+
 void consultarMultimedia(Video& video) {
-    // AQUI VAN TUS IMAGENES: GUARDALAS EN LA CARPETA imagenes/.
-    // LOS NOMBRES ESTAN EN imagenes/LEEME.md Y EN LA COLUMNA portada DE datos.csv.
-    // LAS PELICULAS ABREN SU PORTADA DIRECTAMENTE; LAS SERIES TODAVIA PREGUNTAN.
     if (video.getTipo() == "Pelicula" || leerTexto("Mostrar portada (s/n): ") == "s") {
         if (video.getPortada().empty()) cout << "Este contenido no tiene portada configurada.\n";
         else mostrarPortada(video.getPortada());
