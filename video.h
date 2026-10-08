@@ -15,7 +15,7 @@ protected:
 public:
     Video(int id, const string& nombre, Tiempo duracion, const string& genero,
           const string& portada = "");
-    virtual ~Video() = default; //para destruir correctamente las clases hijas.
+    virtual ~Video() = default; //para destruir las clases hijas
     int getID() const;
     string getNombre() const;
     string getGenero() const;
@@ -25,5 +25,5 @@ public:
     virtual int getCantidadCalificaciones() const;
     virtual bool calificar(int valor);
     virtual string getTipo() const = 0;
-    virtual void imprimir() const = 0; //Video es una clase abstracta porque tiene al menos una funcion virtual pura
+    virtual void imprimir() const = 0; //Video es una clase abstracta porque tiene una funcion virtual pura
 };
