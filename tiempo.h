@@ -14,5 +14,6 @@ public:
     void imprimir() const;
     Tiempo operator+(const Tiempo& otro) const;
     bool operator<(const Tiempo& otro) const;
+    bool operator==(const Tiempo& otro) const;
     friend ostream& operator<<(ostream& salida, const Tiempo& tiempo);
 };
