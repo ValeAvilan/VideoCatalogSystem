@@ -25,6 +25,13 @@ Tiempo Tiempo::operator+(const Tiempo& otro) const {
     return Tiempo(0, a + b); // El constructor convierte los minutos a horas.
 }
 
+bool Tiempo::operator<(const Tiempo& otro) const {
+    return getMinutosTotales() < otro.getMinutosTotales();
+}
+bool Tiempo::operator==(const Tiempo& otro) const {
+    return getMinutosTotales() == otro.getMinutosTotales();
+}
+
 ostream& operator<<(ostream& salida, const Tiempo& tiempo) {
     return salida << tiempo.hora << " h " << tiempo.min << " min ("
                   << tiempo.getMinutosTotales() << " min)";
